@@ -127,7 +127,7 @@ export const PortofolioCard = [
     teknologi: "React.js, Material UI",
     image: Inr,
     icon: FaGlobe,
-    link: 'https://genbiuinam.org/'
+    link: '#'
   },
   {
     iid: 4,
@@ -145,7 +145,7 @@ export const PortofolioCard = [
     teknologi: "React.js, Material UI",
     image: Godesaku,
     icon: FaGlobe,
-    link: '/'
+    link: 'https://sistem-informasi-desa-iota.vercel.app/'
   },
 ];
 
