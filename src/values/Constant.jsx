@@ -13,6 +13,11 @@ import { FaGlobeAfrica } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Alquran from "@/assets/alquran.png"
+import Undangan from "@/assets/undangan.png"
+import Inr from "@/assets/inr-web.png"
+import Genbi from "@/assets/genbi.png"
+import Godesaku from "@/assets/godesaku.png"
 
 // width drawer
 export const drawerWidth = 115;
@@ -34,11 +39,11 @@ export const NavbarMenu = [
     icon: <FaBriefcase />,
     router: "/portofolio",
   },
-  {
-    id: 4,
-    icon: <GiAchievement />,
-    router: "/awards",
-  },
+  // {
+  //   id: 4,
+  //   icon: <GiAchievement />,
+  //   router: "/awards",
+  // },
   {
     id: 5,
     icon: <RiMailOpenFill />,
@@ -47,25 +52,25 @@ export const NavbarMenu = [
 ];
 
 export const Information = [
-  { id: 1, title: "20+", description: "PROJECTS COMPLETED" },
-  { id: 2, title: "3+", description: "YEARS OF EXPERIENCE" },
-  { id: 3, title: "6+", description: "COMP. I'VE WORKED" },
+  { id: 1, title: "7+", description: "PROJECTS COMPLETED" },
+  { id: 2, title: "2+", description: "YEARS OF EXPERIENCE" },
+  // { id: 3, title: "6+", description: "COMP. I'VE WORKED" },
 ];
 
 export const Skills = [
   { id: 1, name: "HTML/HTML5", value: "95" },
   { id: 2, name: "CSS/CSS3", value: "95" },
-  { id: 3, name: "JAVASCRIPT", value: "90" },
+  { id: 3, name: "JAVASCRIPT", value: "85" },
   { id: 4, name: "REACT JS", value: "85" },
   { id: 5, name: "NEXT JS", value: "85" },
-  { id: 6, name: "LARAVEL", value: "90" },
+  // { id: 6, name: "LARAVEL", value: "90" },
 ];
 
 export const Timeline = [
   {
     id: 1,
     nama: "INFORMATICS ENGINEERING",
-    date: "2021 - 2025",
+    date: "2021 - PRESENT",
     tempat: "ALAUDDIN STATE ISLAMIC UNIVERSITY OF MAKASSAR",
     jobdesk: "Bachelor's degree",
     icon: IoSchoolSharp,
@@ -73,24 +78,24 @@ export const Timeline = [
   {
     id: 2,
     nama: "FRONTEND DEVELOPER",
-    date: "MAY 2023 - JULY 2023 (PART TIME)",
+    date: "MAY 2023 - JULY 2023 (FREELANCE)",
     tempat: "INREADY WORKGROUP",
     jobdesk: "Develop admin portal website.",
     icon: FaBriefcase,
   },
   {
     id: 3,
-    nama: "FULLSTACK DEVELOPER",
-    date: "JULY 2024 - SEP 2024 (PART TIME)",
+    nama: "FRONTEND DEVELOPER",
+    date: "JULY 2024 - SEP 2024 (FREELANCE)",
     tempat: "GENBI UINAM",
     jobdesk: "Develop websites and admin portal.",
     icon: FaBriefcase,
   },
   {
     id: 4,
-    nama: "FULLSTACK DEVELOPER",
+    nama: "FRONTEND DEVELOPER",
     date: "NOV 2024 - FEB 2025 (PART TIME)",
-    tempat: "GODESAKU",
+    tempat: "GODESAKU - PT HANAN MEDIA SOLUTION",
     jobdesk: "Developing village information website.",
     icon: FaBriefcase,
   },
@@ -102,54 +107,45 @@ export const PortofolioCard = [
     nama: "Alquran",
     deskripsi: "Digital Quran website",
     teknologi: "React.js",
-    image: Foto,
+    image: Alquran,
     icon: FaGlobe,
-    link: 'https://nextjs.org/docs/app/getting-started/linking-and-navigating'
+    link: 'https://al-quranonline.vercel.app/'
   },
   {
     id: 2,
     nama: "Makkio",
     deskripsi: "Digital invitation website",
     teknologi: "React.js,Material UI",
-    image: Foto,
+    image: Undangan,
     icon: FaGlobe,
-    link: '/about'
+    link: 'https://undangan-digital-coral.vercel.app/'
   },
   {
     id: 3,
+    nama: "Inready Workgroup",
+    deskripsi: "admin portal to manage the data",
+    teknologi: "React.js, Material UI",
+    image: Inr,
+    icon: FaGlobe,
+    link: 'https://genbiuinam.org/'
+  },
+  {
+    iid: 4,
     nama: "Genbi Uinam",
     deskripsi: "Genbi Uinam Organization Information Website",
     teknologi: "Next.js, Material UI",
-    image: Foto,
+    image: Genbi,
     icon: FaGlobe,
-    link: '/awards'
-  },
-  {
-    id: 4,
-    nama: "Godesaku",
-    deskripsi: "Village information website",
-    teknologi: "Next.js,Material UI",
-    image: Foto,
-    icon: FaGlobe,
-    link: '/contact'
+    link: 'https://genbiuinam.org/'
   },
   {
     id: 5,
-    nama: "Alquran",
-    deskripsi: "Website Alquran",
-    teknologi: "React.js",
-    image: Foto,
+    nama: "Godesaku",
+    deskripsi: "Website AlquranA web-based system that provides general information about a village, including articles, tourist spots, population data, and more.",
+    teknologi: "React.js, Material UI",
+    image: Godesaku,
     icon: FaGlobe,
     link: '/'
-  },
-  {
-    id: 6,
-    nama: "Makkio",
-    deskripsi: "Digital invitation website",
-    teknologi: "React.js,Material UI",
-    image: Foto,
-    icon: FaGlobe,
-    link: '/about'
   },
 ];
 
