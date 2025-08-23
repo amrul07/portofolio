@@ -145,7 +145,7 @@ export const PortofolioCard = [
     teknologi: "React.js, Material UI",
     image: Godesaku,
     icon: FaGlobe,
-    link: 'https://sistem-informasi-desa-iota.vercel.app/'
+    link: 'https://sistem-informasi-desa-nextjs.vercel.app/'
   },
 ];
 
